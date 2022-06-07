@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Real Time Bus Tracker</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css" rel="stylesheet" />
+    <link href="./styles.css" rel="stylesheet" />
+    <link href="../css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="map"></div>
+    <div class="map-overlay top">
+        <button style="font-size: 14px; color: #fff; background-color: #333;" onclick="move()">
+            Show stops between MIT and Harvard
+        </button>
+    </div>
+    <div class="row" style="width:20%; position:absolute; top:200px;">
+        <div class="col-sm-4 col-md-4 portfolio-block">
+
+            <div class="project-description" id="description">
+                <h1>Real Time Bus Tracker</h1>
+                <div class="nav-item ajax-page-close-button">
+                    <a id="ajax-page-close-button" href="https://snando2020.github.io/#portfolio"><i class="lnr lnr-cross"></i> Close</a>
+                </div>
+                <div class="block-title">
+                    <h3>Description</h3>
+                </div>
+                <ul class="project-general-info">
+                    <li>
+                        <p><i class="fa fa-user"></i> Saul F. Vega Montenegro</p>
+                    </li>
+                    <li>
+                        <p><i class="fa fa-globe"></i> <a href="https://snando2020.github.io/project3/index.html" target="_blank">https://snando2020.github.io/</a></p>
+                    </li>
+                    <li>
+                        <p><i class="fa fa-calendar"></i> 01 June, 2022</p>
+                    </li>
+                    <li>
+                        <p><i class="fab fa-github"></i><span><a href="https://github.com/snando2020/RealTimeBusTracker" target="_blank">  Repository github</a></span></p>
+                    </li>
+
+                </ul>
+
+                <p class="text-justify">This project worked with mapbox and connected through an API to the services by entering a token, and a follow-up of the bus stops between MIT and Harvard was developed..</p>
+                <!-- /Project Description -->
+
+                <!-- Technology -->
+                <div class="tags-block">
+                    <div class="block-title">
+                        <h3>Technology</h3>
+                    </div>
+                    <ul class="tags">
+                        <li><a>HTML</a></li>
+                        <li><a>CSS</a></li>
+                        <li><a>Javascript</a></li>
+                        <li><a>Mapbox</a></li>
+                    </ul>
+                </div>
+                <!-- /Technology -->
+
+            </div>
+            <!-- Project Description -->
+        </div>
+    </div>
+    <script src="./bustracker.js"></script>
+</body>
+
+</html>

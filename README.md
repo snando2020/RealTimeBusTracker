@@ -58,7 +58,7 @@ $ cd RealTimeBusTracker
 
 ```
 
-## :pincel2: Improvements ##
+## :pencil2: Improvements ##
 
 It would be nice the next improvements:
 - [ ] Print the marker of each bus stop.
